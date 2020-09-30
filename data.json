@@ -1,0 +1,34 @@
+{
+  "corpus": {
+    "en.txt": "",
+    "es.txt": "",
+    "hi.txt": "",
+    "ru.txt": ""
+  },
+  "bert_models": {
+    "wordpiece-experiments": {
+    "en-es": "",
+      "enfake-es": "",
+      "en-hi": "",
+      "enfake-hi": "",
+      "en-ru": "",
+      "enfake-ru": ""
+    },
+    "word-order-experiments": {
+      "enfake-es-0.25": "",
+      "enfake-es-0.5": "",
+      "enfake-es-1.0": "",
+      "enfake-hi-0.25": "",
+      "enfake-hi-0.5": "",
+      "enfake-hi-1.0": "",
+      "enfake-ru-0.25": "",
+      "enfake-ru-0.5": "",
+      "enfake-ru-1.0": ""
+    },
+    "word-frequency-experiments": {
+      "enfake-es": "",
+      "enfake-hi": "",
+      "enfake-ru": ""
+    }
+  }
+}
