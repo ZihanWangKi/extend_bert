@@ -26,6 +26,7 @@ flags.DEFINE_string(
     None,
     "")
 
+### we separate into 2 runs so that the tf graphs don't interfere with each other
 def run1():
 
     '''
@@ -134,8 +135,6 @@ def run2():
     output = os.path.join(FLAGS.output_dir , 'model.ckpt')
     new_saver = tf.train.Saver()
     save_path = new_saver.save(sess, output)
-
-
     print("************* Completed  Successfully *************")
 
 if FLAGS.run == "1":
