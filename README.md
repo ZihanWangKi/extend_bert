@@ -2,13 +2,13 @@
 <h5 align="center">Extending Multilingual BERT to Low-Resource Languages </h5>
 
 ## Motivation
-Low resource languages usually lack sufficient task-related labelled data. Multilingual BERT has been a 
+Low resource languages usually lack sufficient task-related labelled data. Multilingual BERT (M-BERT) has been a 
 success to help transferring knowledge from high resource languages to low reosurce ones. 
 In this work, we show that by adapting a continue training framework, this transfer ability can be significantly improved.
 
 ## Results
 We perform an extensive set of experiments with Named Entity Recognition (NER) on 27 languages, 
-only 16 of which are in \MBERT, and show an average increase of about 6% F1 on M-BERT languages and 23% F1 increase on new languages. 
+only 16 of which are in M-BERT, and show an average increase of about 6% F1 on M-BERT languages and 23% F1 increase on new languages. 
 
 ## Scripts
 
