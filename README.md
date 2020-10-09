@@ -27,7 +27,7 @@ We provide code for evaluating on NER. See [evaluating-scripts](evaluating-scrip
 
 ## Requirements
 
-- tensorflow==1.15
+You can do ```pip install -r requirements.txt``` with python3.6+ to have the same environment as ours.
 
 ## Citation
 Please cite the following paper if you find our paper useful. Thanks!
