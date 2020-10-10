@@ -22,7 +22,7 @@ if [ $CREATE_VOCAB -eq 1 ]; then
 fi
 
 # Google cloud bucket name, needs to be changed!
-GC_BUCKET_NAME=zihan_upenn_tmp
+GC_BUCKET_NAME=google_cloud_bucket_name
 
 # Path to the BERT github repo, default is inside this folder
 export BERT_PATH=bert/
