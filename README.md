@@ -25,6 +25,13 @@ to initialize a model and start training. Our code supports google cloud with tp
 
 We provide code for evaluating on NER. See [evaluating-scripts](evaluating-scripts).
 
+## Data
+We are releasing the following BERT models:
+- Bilingual BERT (BBERT) models on 13 languages.
+- Extended Multilingual BERT (EMBERT) on 28 languages.
+
+See [data](data.json) for detailed paths to download the models.
+
 ## Requirements
 
 You can do ```pip install -r requirements.txt``` with python3.6+ to have the same environment as ours.
